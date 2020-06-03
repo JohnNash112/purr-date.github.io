@@ -1,0 +1,34 @@
+label{
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+}
+h1{
+	color: gold;
+	font-family: 'Bangers', cursive;
+	font-size: 50px;
+	font-weight: normal;
+	letter-spacing: 15px;
+
+}
+body{
+	background: url(http://www.hdwallpaperspulse.com/wp-content/uploads/2016/10/17/eiffel-tower-sunset-view-hd-image.jpg);
+	background-width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	text-align: center;
+	text-transform: capitalize;
+	border: solid;
+	border-color: black;
+	border-width: 5px;
+	border-spacing: 20px 
+	
+}
+form{
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+}
+
+select {
+	font-family: 'Dancing Script', cursive;
+}
