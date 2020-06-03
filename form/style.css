@@ -12,7 +12,7 @@ h1{
 
 }
 body{
-	background: url(http://www.hdwallpaperspulse.com/wp-content/uploads/2016/10/17/eiffel-tower-sunset-view-hd-image.jpg);
+	background: url(https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1048&q=80);
 	background-width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat; 
@@ -31,4 +31,8 @@ form{
 
 select {
 	font-family: 'Dancing Script', cursive;
+}
+
+html{
+	height: 100%;
 }
