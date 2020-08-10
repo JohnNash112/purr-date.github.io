@@ -10,11 +10,12 @@
 </head>
 <body>
 <h1>Register</h1>
-<form class="content">
+
+<form class="content" action='thanks.php' method='POST'>
 	<label for="name1"><b>First Name:</b></label>
-	<input id="name1" type="text" name="FirstName" placeholder="John" required="">
+	<input id="name1" type="text" name="FirstName" placeholder="John" required="" >
 	<label for="name2"><b>Last Name:</b></label>
-	<input id="name2" type="text" name="LastName" required="" placeholder="Smith">
+	<input id="name2" type="text" name="LastName" required="" placeholder="Smith" >
 	<br>
 	<label> <b>Male</b>
 		<input type="radio" name="Gender" value="M">
@@ -29,14 +30,14 @@
 	<br>
 	
 	<label for="Email"><b>Email:</b></label>
-	<input id="Email" type="Email" name="emailid" required="" placeholder="Your Email" required="">
+	<input id="Email" type="Email" name="emailid" required="" placeholder="Your Email" required="" >
 	<label for="pass"><b>Password:</b></label>
-	<input type="Password" name="pass" id="pass" pattern=".{5,10}" required title="Password must be 5 to 10 charater" required="" placeholder="Password">
+	<input type="Password" name="pass" id="pass" pattern=".{5,10}" required title="Password must be 5 to 10 charater" required="" placeholder="Password" >
 	<br>
 	<label><b>Birthday:</b>
 		
 			<select name="Month">
-				<option value="0">Month</option>
+				<option value=0>Month</option>
 				<option value="Jan">January</option>
 				<option value="Feb">Februrary</option>
 				<option value="Mar">March</option>
@@ -45,20 +46,20 @@
 		
 		
 			<select name="day">
-				<option value="0">Day</option>
-				<option value="1">1</option>
-				<option value="2">2</option>
-				<option value="3">3</option>
-				<option value="4">4</option>
+				<option value=0>Day</option>
+				<option value=1>1</option>
+				<option value=2>2</option>
+				<option value=3>3</option>
+				<option value=4>4</option>
 			</select>
 		
 		
 			<select name="year">
-				<option value="0">Year</option>
-				<option value="1998">1998</option>
-				<option value="1999">1999</option>
-				<option value="2000">2000</option>
-				<option value="2001">2001</option>
+				<option value=0>Year</option>
+				<option value=1998>1998</option>
+				<option value=1999>1999</option>
+				<option value=2000>2000</option>
+				<option value=2001>2001</option>
 			</select>
 		
 	
@@ -67,8 +68,8 @@
 		<input type="checkbox" name="agree" value="True" required="">
 	</label>
 	<br>
-	<button><a href="thanks.html">Submit</a></button>
 	
+	<input type='submit' value='submit'>
 </form>
 </body>
 </html>
